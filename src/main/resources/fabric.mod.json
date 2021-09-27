@@ -1,29 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "betterenchanting",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Better Enchanting",
+  "description": "A complete overhaul of minecraft's magic system, with a data driven system for integrating other mods!",
   "authors": [
-    "Me!"
+    "foul-fortune-feline"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/foul-fortune-feline/better-enchanting"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "icon": "assets/betterenchanting/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.foulfortunefeline.betterenchanting.BetterEnchanting"
+    ],
+    "client": [
+      "com.foulfortunefeline.betterenchanting.ModClientInitializer"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "betterenchanting.mixins.json"
   ],
 
   "depends": {
