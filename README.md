@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Better Enchanting
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+A complete overhaul of minecraft's magic system, with a data driven system for integrating other mods!
