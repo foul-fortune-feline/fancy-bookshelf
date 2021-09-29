@@ -1,5 +1,6 @@
 package com.foulfortunefeline.betterenchanting.screen;
 
+import com.foulfortunefeline.betterenchanting.BetterEnchanting;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.client.render.GameRenderer;
@@ -10,8 +11,8 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class BookCaseScreen extends HandledScreen<ScreenHandler> {
-    private static final Identifier TEXTURE = new Identifier("minecraft",
-            "textures/gui/container/dispenser.png");
+    private static final Identifier TEXTURE = new Identifier(BetterEnchanting.MOD_ID,
+            "textures/gui/container/book_case.png");
 
     public BookCaseScreen(ScreenHandler handler, PlayerInventory inventory, Text title) {
         super(handler, inventory, title);

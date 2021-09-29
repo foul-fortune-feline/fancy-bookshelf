@@ -1,4 +1,6 @@
-package com.foulfortunefeline.betterenchanting.block.bookcase;
+package com.foulfortunefeline.betterenchanting.block.book_case;
+
+//import com.foulfortunefeline.betterenchanting.models.UnbakedBookCaseModel;
 
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
@@ -7,8 +9,6 @@ import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
-import net.minecraft.state.property.EnumProperty;
-import net.minecraft.state.property.IntProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.*;
 import net.minecraft.util.hit.BlockHitResult;
@@ -19,12 +19,9 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
+@SuppressWarnings("deprecation")
 public class BookCase extends BlockWithEntity {
     public static final DirectionProperty FACING;
-
 
 
     public BookCase(Settings settings) {
@@ -52,8 +49,8 @@ public class BookCase extends BlockWithEntity {
         Direction dir = state.get(FACING);
         return switch (dir) {
             case NORTH -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 0.4375f);
-            case SOUTH -> VoxelShapes.cuboid(0.0f, 0.0f, 0.4375f, 1.0f, 1.0f, 1.0f);
-            case EAST -> VoxelShapes.cuboid(0.4375f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f);
+            case SOUTH -> VoxelShapes.cuboid(0.0f, 0.0f, 0.5625f, 1.0f, 1.0f, 1.0f);
+            case EAST -> VoxelShapes.cuboid(0.5625f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f);
             case WEST -> VoxelShapes.cuboid(0.0f, 0.0f, 0.0f, 0.4375f, 1.0f, 1.0f);
             default -> VoxelShapes.fullCube();
         };

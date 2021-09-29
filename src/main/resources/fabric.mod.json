@@ -21,7 +21,7 @@
       "com.foulfortunefeline.betterenchanting.BetterEnchanting"
     ],
     "client": [
-      "com.foulfortunefeline.betterenchanting.ModClientInitializer"
+      "com.foulfortunefeline.betterenchanting.client.ModClientInitializer"
     ]
   },
   "mixins": [

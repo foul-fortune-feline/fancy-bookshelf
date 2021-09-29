@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.collection.DefaultedList;
 
 /**
- * A simple {@code Inventory} implementation with only default methods + an item list getter
+ * A simple {@code Inventory} implementation with only default methods + an items list getter
  *
  * Originally by Juuz
  */
@@ -15,13 +15,13 @@ import net.minecraft.util.collection.DefaultedList;
 public interface ImplementedInventory extends Inventory {
 
     /**
-     * Retrieves the item list of this inventory
+     * Retrieves the items list of this inventory
      * Must return the same instance every time it's called
      */
     DefaultedList<ItemStack> getItems();
 
     /**
-     * Creates an inventory from the item list
+     * Creates an inventory from the items list
      */
     static ImplementedInventory of(DefaultedList<ItemStack> items) {
         return () -> items;
@@ -58,7 +58,7 @@ public interface ImplementedInventory extends Inventory {
     }
 
     /**
-     * Retrieves the item in the slot.
+     * Retrieves the items in the slot.
      */
     @Override
     default ItemStack getStack(int slot) {

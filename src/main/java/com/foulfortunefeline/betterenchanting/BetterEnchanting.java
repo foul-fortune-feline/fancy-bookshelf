@@ -1,13 +1,9 @@
 package com.foulfortunefeline.betterenchanting;
 
 import com.foulfortunefeline.betterenchanting.block.ModBlocks;
-import com.foulfortunefeline.betterenchanting.block.bookcase.BookCase;
 import com.foulfortunefeline.betterenchanting.item.ModItems;
-import com.foulfortunefeline.betterenchanting.screen.BookCaseScreenHandler;
 import com.foulfortunefeline.betterenchanting.screen.ModScreenHandlers;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.screenhandler.v1.ScreenHandlerRegistry;
-import net.minecraft.screen.ScreenHandlerType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
