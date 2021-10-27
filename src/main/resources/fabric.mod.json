@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.foulfortunefeline.fancybookshelf.fancybookshelf"
+      "com.foulfortunefeline.fancybookshelf.FancyBookshelf"
     ],
     "client": [
       "com.foulfortunefeline.fancybookshelf.client.ModClientInitializer"
