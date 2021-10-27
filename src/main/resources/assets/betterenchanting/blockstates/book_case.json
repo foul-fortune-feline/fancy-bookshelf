@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "betterenchanting:block/book_case/book_case" },
-    "facing=east": { "model": "betterenchanting:block/book_case/book_case", "y": 90 },
-    "facing=south": { "model": "betterenchanting:block/book_case/book_case", "y": 180 },
-    "facing=west": { "model": "betterenchanting:block/book_case/book_case", "y": 270 }
-  }
-}

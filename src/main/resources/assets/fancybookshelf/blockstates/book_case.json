@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "fancybookshelf:block/book_case/book_case" },
+    "facing=east": { "model": "fancybookshelf:block/book_case/book_case", "y": 90 },
+    "facing=south": { "model": "fancybookshelf:block/book_case/book_case", "y": 180 },
+    "facing=west": { "model": "fancybookshelf:block/book_case/book_case", "y": 270 }
+  }
+}

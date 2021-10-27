@@ -1,31 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "betterenchanting",
+  "id": "fancybookshelf",
   "version": "${version}",
 
-  "name": "Better Enchanting",
-  "description": "A complete overhaul of minecraft's magic system, with a data driven system for integrating other mods!",
+  "name": "Fancy Bookshelf",
+  "description": "Adds a fancier bookshelf, a la the Bibliocraft book case of old.",
   "authors": [
     "foul-fortune-feline"
   ],
   "contact": {
-    "sources": "https://github.com/foul-fortune-feline/better-enchanting"
+    "sources": "https://github.com/foul-fortune-feline/fancy-bookshelf"
   },
 
   "license": "CC-BY-NC-SA-4.0",
-  "icon": "assets/betterenchanting/icon.png",
+  "icon": "assets/fancybookshelf/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.foulfortunefeline.betterenchanting.BetterEnchanting"
+      "com.foulfortunefeline.fancybookshelf.fancybookshelf"
     ],
     "client": [
-      "com.foulfortunefeline.betterenchanting.client.ModClientInitializer"
+      "com.foulfortunefeline.fancybookshelf.client.ModClientInitializer"
     ]
   },
   "mixins": [
-    "betterenchanting.mixins.json"
+    "fancybookshelf.mixins.json"
   ],
 
   "depends": {

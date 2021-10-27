@@ -1,3 +1,3 @@
-# Better Enchanting
+# Fancy Bookshelf
 
-A complete overhaul of minecraft's magic system, with a data driven system for integrating other mods!
+A fancier bookshelf, a la the bookcase from Bibliocraft
